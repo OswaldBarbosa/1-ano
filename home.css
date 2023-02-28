@@ -1,0 +1,132 @@
+.home {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-areas:
+        "um"
+        "coracao-um ano coracao-dois"
+        "historia"
+}
+
+.giselly {
+    margin-top: 3vh;
+    font-size: 4vw;
+    grid-area: giselly;
+}
+
+.oswaldo {
+    margin-top: 3vh;
+    font-size: 4vw;
+    grid-area: oswaldo;
+}
+
+.coracao {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 6vh;
+    grid-area: coracao;
+}
+
+.um {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    grid-area: um;
+}
+
+.ano {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-right: 3vw;
+    grid-area: ano;
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    margin-top: 1vh;
+    margin-right: 2vw;
+    grid-area: historia;
+}
+
+.faixa {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-right: 3vw;
+}
+
+.procuramos {
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
+    .home {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-areas:
+            "um"
+            "ano"
+            "historia"
+    }
+
+    .giselly {
+        font-size: 7vw;
+        margin-top: 5vh;
+    }
+
+    .oswaldo {
+        font-size: 7vw;
+        margin-top: 5vh;
+    }
+
+    .coracao {
+        height: 5vh;
+    }
+
+    .um {}
+
+    .ano {
+        height: 5vh;
+    }
+
+    .historia {
+        font-size: 6vh;
+    }
+
+    .faixa {
+        height: 7vh;
+    }
+
+    .procuramos {
+        margin-top: 4.5vh;
+        margin-right: 2vw;
+        width: 70vh;
+        font-size: 12px;
+    }
+
+    .veio {
+        margin-left: 25vw;
+        font-size: 12px;
+    }
+
+    .atraves {
+        margin-left: 30vw;
+        font-size: 12px;
+    }
+
+    .queriamos {
+        display: none;
+    }
+}
